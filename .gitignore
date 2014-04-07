@@ -10,3 +10,31 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# intellij
+*.iml
+*.name
+*.iws
+*.ipr
+#.idea/*
+.idea
+atlassian-ide-plugin.xml
+out
+
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# eclipse
+.classpath
+.project
+.settings
+
+# maven
+target
+
+# misc:
+tmp
+temp

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sample xmlns="http://com/meriosol/sample/schema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://com/meriosol/sample/schema sample.xsd" id="1001"
+        created="2014-04-07T03:41:30.493-07:00">
+    <title>Sample</title>
+</sample>

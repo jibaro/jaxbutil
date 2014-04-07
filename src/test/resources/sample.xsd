@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://com/meriosol/sample/schema" elementFormDefault="qualified"
+        attributeFormDefault="unqualified" version="v1" id="SMP20140407">
+    <annotation>
+        <documentation xml:lang="en">
+            This schema represents Sample element.
+        </documentation>
+    </annotation>
+
+    <element name="sample">
+        <complexType>
+            <all>
+                <element name="title" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            </all>
+            <attribute name="id" use="required" type="xs:long"/>
+            <attribute name="created" use="optional" type="xs:dateTime"/>
+        </complexType>
+    </element>
+
+</schema>
